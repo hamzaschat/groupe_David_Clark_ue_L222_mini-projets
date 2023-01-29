@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(207, 197, 197, 0.172);
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+h2,form,ul{
+    margin: auto;
+    font-size: 20px;
+    text-align:center;
+}
+.table{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    width: 50px;
+}
+.nav-item{
+    padding-left: 5rem;
+}
+.form_login{
+    width: 40%;
+    margin: auto;
+}
+
+.btn-primary{
+    
+    padding: 0rem;
+    width: 5rem;
+    margin-top: 15px;
+
+}

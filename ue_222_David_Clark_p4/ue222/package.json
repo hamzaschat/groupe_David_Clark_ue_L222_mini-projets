@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://framagit.org/BSP/uel222.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

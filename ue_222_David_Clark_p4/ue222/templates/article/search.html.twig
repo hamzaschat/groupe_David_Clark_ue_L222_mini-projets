@@ -1,0 +1,14 @@
+{% if articles is defined and articles %}
+        {% if searchTerm is defined %}
+            <h2>Résultats de la recherche pour "{{ searchTerm }}"</h2>
+        {% endif %}
+        <ul>
+            {% for article in articles %}
+                <li>{{ article.title}}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% if searchTerm is defined %}
+            <p>Aucun résultat trouvé pour "{{ searchTerm }}".</p>
+        {% endif %}
+    {% endif %}
